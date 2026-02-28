@@ -1,4 +1,7 @@
 # flutter_nadhia
+minggu 2
+menambah buttom add & remove
+<img width="203" height="428" alt="image" src="https://github.com/user-attachments/assets/c5ff3f31-f412-4194-8ee2-ec464509dd4c" />
 
 A new Flutter project.
 
