@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Nadhia Flutter 2'),
+      home: const MyHomePage(title: 'Nadhia 3124521042'),
     );
   }
 }
@@ -61,7 +61,6 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('Nadhia Dewi Artifasari'),
             const Text('Tekan tombolnya yeah:'),
             Text(
               '$_counter',
