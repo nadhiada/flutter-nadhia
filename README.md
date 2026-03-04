@@ -1,5 +1,5 @@
 # flutter_nadhia
-minggu 2 ada pada file 02 LAPRAK PERANGKAT BERGERAK NADHIA
+tugas minggu 2 ada pada file 02 LAPRAK PERANGKAT BERGERAK NADHIA
 
 A new Flutter project.
 
