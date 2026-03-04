@@ -42,6 +42,13 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter--;
     });
   }
+  void _resetCounter() {
+    setState(() {
+      _counter = 0;
+    });
+  }
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -54,6 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const Text('Nadhia Dewi Artifasari'),
             const Text('Tekan tombolnya yeah:'),
             Text(
               '$_counter',
@@ -77,6 +85,13 @@ class _MyHomePageState extends State<MyHomePage> {
             tooltip: 'Decrement',
             heroTag: 'decrement',
             child: const Icon(Icons.remove),
+          ),
+          const SizedBox(width: 10),
+          FloatingActionButton(
+            onPressed: _resetCounter,
+            tooltip: 'Reset',
+            heroTag: 'reset',
+            child: const Icon(Icons.refresh),
           ),
         ],
       ),
